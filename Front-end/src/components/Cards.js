@@ -27,7 +27,7 @@ function Cards() {
 
                         <CardItem
                             src={pic3}
-                            text={<a href="https://dapper-gelato-31f330.netlify.app/">Inventory Demand Projection and Analysis</a>}
+                            text={<a href="https://dapper-gelato-31f330.netlify.app/">Customer Pannel</a>}
                             label='product'
                         />
 
