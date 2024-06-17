@@ -21,7 +21,7 @@ function Cards() {
 
                         <CardItem
                             src={pic2}
-                            text={<a href='https://6428ed806bcf2c26ed507ccb--timely-lolly-3f33f7.netlify.app//'> Product lineage tracking</a>}
+                            text={<a href='https://cargo-hive-web3.vercel.app/'> Product lineage tracking</a>}
                             label='Services'
                         />
 
