@@ -75,16 +75,7 @@ function Navbar() {
                             <button className='sign'>SIGN UP</button>
                         </Link>
                     </li>
-                    <li>
-                        <Link
-                            to='/'
-                            className='nav-links-mobile'
-                            onClick={closeMobileMenu}
-                        >
-                            Sign Up
-                        </Link>
-                    </li>
-
+                    
                 </ul>
                 
             </div>
