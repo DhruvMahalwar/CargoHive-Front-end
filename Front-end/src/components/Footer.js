@@ -31,9 +31,9 @@ function Footer() {
 
                     <div className='footer-links-items'>
                         <h2>Company</h2>
-                        <Link to='/Sign-up'>TRVL Instamart</Link>
-                        <Link to='/Sign-up'>TRVL Blogs</Link>
-                        <Link to='/Sign-up'>TRVL Genie</Link>
+                        <Link to='/Sign-up'>Cargohive Instamart</Link>
+                        <Link to='/Sign-up'>Cargohive Blogs</Link>
+                        <Link to='/Sign-up'>Cargohive Genie</Link>
 
                     </div>
 
@@ -46,7 +46,7 @@ function Footer() {
                     </div>
 
                     <div className='footer-links-items'>
-                        <h2>TRVL verse</h2>
+                        <h2>Cargohive verse</h2>
                         <Link to='/Sign-up'>Trivago</Link>
                         <Link to='/Sign-up'>Make my trip</Link>
                         <Link to='/Sign-up'>Yes-Go-Trip</Link>
@@ -61,9 +61,9 @@ function Footer() {
                 <div className='footer-icons-wrap'>
 
                     <div className='footer-logo'>
-                        <Link to='/Sign-up'><i class='fab fa-typo3' ></i>TRVL</Link>
+                        <Link to='/Sign-up'><i class='fab fa-typo3' ></i>Cargohive</Link>
                     </div>
-                    <small className='small'>TRVL <i class="fa-regular fa-copyright"></i> 2023</small>
+                    <small className='small'>Cargohive <i class="fa-regular fa-copyright"></i> 2023</small>
 
 
                     <div className='footer-icons-items'>

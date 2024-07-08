@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from './Button'
 import './Hero.css';
 import videos from '../videos/cargo1.mp4';
 import Typical from 'react-typical'
@@ -27,7 +26,7 @@ function Hero() {
             </h1>
 
             <p>Simplify your supply chain, amplify your success</p>
-            
+
         </div>
     );
 };

@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.css'
 import { faIndustry, faPlaneDeparture, faShip, faTrainSubway, faTruckField, faWarehouse } from '@fortawesome/free-solid-svg-icons'
 import video2 from '../../videos/video1.mp4'
 const About = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+
   return (
     <>
       <div className="about-page">
@@ -47,7 +46,7 @@ const About = () => {
 
 
       </div>
-      {/* <Loader type="pacman" /> */}
+
     </>
   )
 }

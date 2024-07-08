@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 function CardItem(props) {
     const { src, text, label, path } = props;

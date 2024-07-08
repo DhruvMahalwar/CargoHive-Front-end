@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../images/travel_logo.jpg';
 import './Navbar.css';
 import { Link, useParams, useLocation } from 'react-router-dom';
-import { Button } from './Button';
+
 
 
 
@@ -35,8 +34,9 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+
                     CARGOHIVE
-                    <i class='fab fa-typo3' />
+
                 </Link>
                 <div className='menu-icon' onClick={handleclick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -65,9 +65,9 @@ function Navbar() {
                             Products
                         </Link>
                     </li>
-                   
+
                 </ul>
-                
+
             </div>
         </nav>
 
