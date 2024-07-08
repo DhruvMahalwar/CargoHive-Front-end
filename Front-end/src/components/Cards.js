@@ -22,12 +22,14 @@ function Cards() {
                             <CardItem
                                 src={pic2}
                                 text={'Admin pannel'}
+                                path='https://cargo-hive-web3.vercel.app/'
                                 label='Admin pannel'
                             />
                         </a>
                         <a href='https://cargo-hive-web3-admin.vercel.app/'>
                             <CardItem
                                 src={pic3}
+                                path='https://cargo-hive-web3-admin.vercel.app/'
                                 text={'Customer Pannel'}
                                 label='Customer Pannel'
                             />

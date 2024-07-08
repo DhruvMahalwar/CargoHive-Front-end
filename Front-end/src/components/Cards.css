@@ -6,8 +6,10 @@ video {
     z-index: -100;
 }
 
-.cards_item_text a{
-    text-decoration:npne;
+.cards_item_text {
+    font-size: 30px;
+    color: white;
+    text-decoration: none line-through !important;
 }
 
 .cards {
@@ -58,8 +60,6 @@ h1 {
     flex-flow: column;
     width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
@@ -116,11 +116,7 @@ h1 {
     padding: 20px 30px 30px;
 }
 
-.cards_item_text {
-    color: white;
-    font-size: 18px;
-    line-height: 24px;
-}
+
 
 @media only screen and (min-width: 1200px) {
     .content_blog_container {
